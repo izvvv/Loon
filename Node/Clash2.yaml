@@ -1,0 +1,674 @@
+proxies:
+- name: HK HKT 01
+  password: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+  port: 5228
+  server: 1f58d971-t0xwg0-t2b9s2-cq5n.cm4.oshuawei.com
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: http
+  udp: true
+  username: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+- alterId: 2
+  cipher: auto
+  name: HK HKT 02
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: HK HKT 03
+  network: ws
+  port: 80
+  server: 6cb083ea-t0xwg0-t2b9s2-cq5n.hkt.tcpbbr.net
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- name: HK ASNET 04
+  password: 88fef8e0-f51a-4db7-ac13-09bc2ab31779
+  port: 22153
+  ports: 22153
+  server: hsxg.huasuan666.top
+  skip-cert-verify: true
+  sni: hsxg.huasuan666.top
+  tfo: true
+  type: hysteria2
+  udp: true
+- name: HK Baxet 05
+  password: e5af2608-ecd9-4dd6-afb6-b2291cbaeae8
+  port: 22153
+  server: hsxg.huasuan666.top
+  skip-cert-verify: true
+  sni: hsxg.huasuan666.top
+  tfo: true
+  type: hysteria2
+  udp: true
+- name: HK HKT 06
+  password: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+  port: 443
+  server: a90bb75d-t0xwg0-t2b9s2-cq5n.hkt2.cdnhuawei.com
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: http
+  udp: true
+  username: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+- name: SG Akamai 01
+  password: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+  port: 443
+  server: bbe0266e-t0xwg0-t2b9s2-cq5n.sg3.oshuawei.com
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: http
+  udp: true
+  username: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+- name: JP AMAZON 01
+  network: ws
+  password: fdd1d613-f234-40f6-b63d-97517e0fc4b3
+  port: 20230
+  server: jp006.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: JP KOMI 02
+  port: 59044
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.blue-bgp.xyz
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b38a0f6f-37b0-4f41-99a7-326c6724d573
+- name: JP Amazon 03
+  network: ws
+  password: 790f4282-a179-446e-bc2a-4eba58e669d5
+  port: 20230
+  server: jp008.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: JP Akamai 04
+  password: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+  port: 443
+  server: 3ac42f4b-t0xwg0-t2b9s2-cq5n.jp4.oshuawei.com
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: http
+  udp: true
+  username: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+- name: JP EDCL 05
+  password: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+  port: 443
+  server: cc9dc5b9-t0xwg0-t2b9s2-cq5n.jp.oshuawei.com
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: http
+  udp: true
+  username: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+- name: JP Amazon 06
+  network: ws
+  password: fdd1d613-f234-40f6-b63d-97517e0fc4b3
+  port: 20230
+  server: jp005.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: JP ASNET 07
+  password: 1abdc446-f90e-466f-95ce-e006edd89628
+  port: 22161
+  ports: 22161
+  server: hsrb.huasuan666.top
+  skip-cert-verify: true
+  sni: hsrb.huasuan666.top
+  tfo: true
+  type: hysteria2
+  udp: true
+- name: JP ASNET 08
+  password: e09a0f8c-372e-4547-84e8-ed4807283649
+  port: 22161
+  ports: 22161
+  server: hsrb.huasuan666.top
+  skip-cert-verify: true
+  sni: hsrb.huasuan666.top
+  tfo: true
+  type: hysteria2
+  udp: true
+- name: US HostPapa 01
+  password: 934766f0-204c-42be-8cf7-9afc2a8b5eaf
+  port: 22151
+  ports: 22151
+  server: hsmg.huasuan666.top
+  skip-cert-verify: true
+  sni: hsmg.huasuan666.top
+  tfo: true
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: US CLOUDSOURCE 02
+  network: ws
+  port: 80
+  server: 967a95.fff57e61-7557-a1db.cfd
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f956ef2d-bd63-4a20-ae5d-2a2afce775d9
+  ws-opts:
+    headers:
+      Host: us02s.fff57e61-7557-a1db.cfd
+    path: /
+- name: US ASNET 03
+  network: ws
+  password: juzi
+  port: 443
+  server: 104.19.150.163
+  skip-cert-verify: true
+  sni: juzi8186-sr1.pages.dev
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: juzi8186-sr1.pages.dev
+    path: /?ed=2560&proxyip=sjc.o00o.ooo
+- name: US AMAZON 04
+  network: ws
+  password: 790f4282-a179-446e-bc2a-4eba58e669d5
+  port: 20230
+  server: us003.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: US Newserverlife 05
+  network: ws
+  password: juzi
+  port: 2096
+  server: 172.64.229.220
+  skip-cert-verify: true
+  sni: juzi8186-sr1.pages.dev
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: juzi8186-sr1.pages.dev
+    path: /?ed=2560&proxyip=sjc.o00o.ooo
+- name: US Sharktech 06
+  password: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+  port: 443
+  server: ed21b5f0-t0xwg0-t2b9s2-cq5n.los.gotochinatown.net
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: http
+  udp: true
+  username: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+- name: US PEG 07
+  password: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+  port: 443
+  server: 54992094-t0xwg0-t2b9s2-cq5n.sj.oshuawei.com
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: http
+  udp: true
+  username: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+- name: US EDCL 08
+  password: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+  port: 17235
+  server: dd55f12c-t0xwg0-t2b9s2-cq5n.cm5.oshuawei.com
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: http
+  udp: true
+  username: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+- name: US Cogent 09
+  network: ws
+  password: juzi
+  port: 33892
+  server: 47.243.173.55
+  skip-cert-verify: true
+  sni: juzi8186-sr1.pages.dev
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: juzi8186-sr1.pages.dev
+    path: /?ed=2560&proxyip=sjc.o00o.ooo
+- name: US Cogent 10
+  network: ws
+  password: juzi
+  port: 12627
+  server: 47.242.31.61
+  skip-cert-verify: true
+  sni: juzi8186-sr1.pages.dev
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: juzi8186-sr1.pages.dev
+    path: /?ed=2560&proxyip=sjc.o00o.ooo
+- alterId: 0
+  cipher: auto
+  name: US FranTech 11
+  network: ws
+  port: 23155
+  server: 45.136.245.177
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0f8e21be-5b3e-4332-9528-4bbf4ae33e7b
+  ws-opts:
+    path: /
+- name: US Kaopu 12
+  network: ws
+  password: juzi
+  port: 2053
+  server: 45.112.195.46
+  skip-cert-verify: true
+  sni: juzi8186-sr1.pages.dev
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: juzi8186-sr1.pages.dev
+    path: /?ed=2560&proxyip=sjc.o00o.ooo
+- name: US HostPapa 13
+  password: a24c6851-2055-42c1-9c20-2d3bad97334f
+  port: 3001
+  ports: 3001
+  server: us5.1010991.xyz
+  skip-cert-verify: true
+  sni: us5.1010991.xyz
+  tfo: true
+  type: hysteria2
+  udp: true
+- name: US FD 14
+  network: ws
+  password: juzi
+  port: 443
+  server: 13.230.34.30
+  skip-cert-verify: true
+  sni: juzi8186-sr1.pages.dev
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: juzi8186-sr1.pages.dev
+    path: /?ed=2560&proxyip=sjc.o00o.ooo
+- name: US AMAZON 15
+  network: ws
+  password: 790f4282-a179-446e-bc2a-4eba58e669d5
+  port: 20230
+  server: us004.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: TW DCBG 01
+  password: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+  port: 443
+  server: 4208fee1-t0xwg0-t2b9s2-cq5n.tw3.p5pv.com
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: http
+  udp: true
+  username: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+- name: AR Kaopu 01
+  password: a24c6851-2055-42c1-9c20-2d3bad97334f
+  port: 3001
+  ports: 3001
+  server: ar1.1010991.xyz
+  skip-cert-verify: true
+  sni: ar1.1010991.xyz
+  tfo: true
+  type: hysteria2
+  udp: true
+- name: BE GCSL 01
+  password: a24c6851-2055-42c1-9c20-2d3bad97334f
+  port: 3001
+  ports: 3001
+  server: be1.1010991.xyz
+  skip-cert-verify: true
+  sni: be1.1010991.xyz
+  tfo: true
+  type: hysteria2
+  udp: true
+- name: BG Baykov 01
+  password: a24c6851-2055-42c1-9c20-2d3bad97334f
+  port: 3001
+  ports: 3001
+  server: se1.1010991.xyz
+  skip-cert-verify: true
+  sni: se1.1010991.xyz
+  tfo: true
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: BR ORACLE 01
+  network: ws
+  port: 2052
+  server: hk.bethebest.eu.org
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f6d6f441-aad7-4a1d-a939-c7db3242e2aa
+  ws-opts:
+    headers:
+      Host: br3.123417.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: BR Oracle 02
+  network: ws
+  port: 2052
+  server: hk.bethebest.eu.org
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f6d6f441-aad7-4a1d-a939-c7db3242e2aa
+  ws-opts:
+    headers:
+      Host: br2.123417.xyz
+    path: /
+- name: BR ORACLE 03
+  password: a24c6851-2055-42c1-9c20-2d3bad97334f
+  port: 3001
+  ports: 3001
+  server: br1.1010991.xyz
+  skip-cert-verify: true
+  sni: br1.1010991.xyz
+  tfo: true
+  type: hysteria2
+  udp: true
+- name: DE NKtelecom 01
+  password: 2574ef1a-1ff9-4db0-9df3-5940de07235b
+  port: 22158
+  ports: 22158
+  server: hsfg.huasuan666.top
+  skip-cert-verify: true
+  sni: hsfg.huasuan666.top
+  tfo: true
+  type: hysteria2
+  udp: true
+- name: DE EDCL 02
+  password: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+  port: 443
+  server: 83202034-t0xwg0-t2b9s2-cq5n.de.oshuawei.com
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: http
+  udp: true
+  username: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+- name: DE BAGE 03
+  password: a24c6851-2055-42c1-9c20-2d3bad97334f
+  port: 3001
+  ports: 3001
+  server: de1.1010991.xyz
+  skip-cert-verify: true
+  sni: de1.1010991.xyz
+  tfo: true
+  type: hysteria2
+  udp: true
+- name: DK GCSL 01
+  password: a24c6851-2055-42c1-9c20-2d3bad97334f
+  port: 3001
+  ports: 3001
+  server: dk1.1010991.xyz
+  skip-cert-verify: true
+  sni: dk1.1010991.xyz
+  tfo: true
+  type: hysteria2
+  udp: true
+- name: EE Baykov 01
+  password: a24c6851-2055-42c1-9c20-2d3bad97334f
+  port: 3001
+  ports: 3001
+  server: at1.1010991.xyz
+  skip-cert-verify: true
+  sni: at1.1010991.xyz
+  tfo: true
+  type: hysteria2
+  udp: true
+- name: FR SCALEWAY 01
+  password: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+  port: 8443
+  server: 27188515-t0xwg0-t2b9s2-cq5n.fr.cdnkuaishou.com
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: http
+  udp: true
+  username: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+- name: FR Dyjix 02
+  password: a24c6851-2055-42c1-9c20-2d3bad97334f
+  port: 3001
+  ports: 3001
+  server: fr1.1010991.xyz
+  skip-cert-verify: true
+  sni: fr1.1010991.xyz
+  tfo: true
+  type: hysteria2
+  udp: true
+- name: FR OVH 03
+  password: a24c6851-2055-42c1-9c20-2d3bad97334f
+  port: 3001
+  ports: 3001
+  server: pl1.1010991.xyz
+  skip-cert-verify: true
+  sni: pl1.1010991.xyz
+  tfo: true
+  type: hysteria2
+  udp: true
+- name: GB Regxa 01
+  password: 2574ef1a-1ff9-4db0-9df3-5940de07235b
+  port: 22156
+  ports: 22156
+  server: hsyg.huasuan666.top
+  skip-cert-verify: true
+  sni: hsyg.huasuan666.top
+  tfo: true
+  type: hysteria2
+  udp: true
+- name: ID Akamai 01
+  password: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+  port: 32233
+  server: b5167cd4-t0xwg0-t2b9s2-cq5n.id.oshuawei.com
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: http
+  udp: true
+  username: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+- name: IT Seflow 01
+  password: a24c6851-2055-42c1-9c20-2d3bad97334f
+  port: 3001
+  ports: 3001
+  server: it1.1010991.xyz
+  skip-cert-verify: true
+  sni: it1.1010991.xyz
+  tfo: true
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: KR Oracle 01
+  port: 26075
+  server: ppy-krv1.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- name: MY TTSS 01
+  password: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+  port: 31233
+  server: 648b32f9-t0xwg0-t2b9s2-cq5n.my.oshuawei.com
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: http
+  udp: true
+  username: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+- name: NL NKtelecom 01
+  password: 8ab0fc35-9a58-4528-b8aa-86811db20603
+  port: 22157
+  ports: 22157
+  server: hshl.huasuan666.top
+  skip-cert-verify: true
+  sni: hshl.huasuan666.top
+  tfo: true
+  type: hysteria2
+  udp: true
+- name: NL Green 02
+  password: a24c6851-2055-42c1-9c20-2d3bad97334f
+  port: 3001
+  ports: 3001
+  server: nl1.1010991.xyz
+  skip-cert-verify: true
+  sni: nl1.1010991.xyz
+  tfo: true
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: RO CFIS 01
+  port: 26146
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- name: RU LLC 01
+  password: 934766f0-204c-42be-8cf7-9afc2a8b5eaf
+  port: 22160
+  ports: 22160
+  server: hsels.huasuan666.top
+  skip-cert-verify: true
+  sni: hsels.huasuan666.top
+  tfo: true
+  type: hysteria2
+  udp: true
+- name: RU LLC 02
+  password: 7cb66457-2ec9-4ac8-876c-81d5a8518f56
+  port: 22160
+  ports: 22160
+  server: hsels.huasuan666.top
+  skip-cert-verify: true
+  sni: hsels.huasuan666.top
+  tfo: true
+  type: hysteria2
+  udp: true
+- name: TH Bangmod 01
+  password: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+  port: 27235
+  server: dd55f12c-t0xwg0-t2b9s2-cq5n.cm5.oshuawei.com
+  skip-cert-verify: true
+  tfo: true
+  tls: true
+  type: http
+  udp: true
+  username: fb3d8bb2-e288-11ec-b2b4-f23c91cfbbc9
+- name: TR ASNET 01
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA==
+  password: 0320b03b-e214-40e0-bd71-d720dd1e392a
+  port: 33658
+  server: teq.dport.top
+  skip-cert-verify: true
+  sni: teq.dport.top
+  tfo: true
+  type: hysteria2
+  udp: true
+- name: UA Green 01
+  password: a24c6851-2055-42c1-9c20-2d3bad97334f
+  port: 3001
+  ports: 3001
+  server: no1.1010991.xyz
+  skip-cert-verify: true
+  sni: no1.1010991.xyz
+  tfo: true
+  type: hysteria2
+  udp: true
+- cipher: rc4-md5
+  name: Unknown Green 01
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 4331b292462.microsoft.com
+    mode: http
+  port: 3609
+  server: pr1.jymzffbquawl.com
+  tfo: true
+  type: ss
+  udp: true
