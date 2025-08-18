@@ -1,133 +1,114 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: HK HKT 01
-  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
-  port: 19812
-  server: mm.huawei-api.top
+- name: HK RTL 01
+  password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
+  port: 36026
+  server: 67c4e645-8f50-4aba-abb1-def1a8f60d5c.bbtechconsultants.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
   tfo: true
-  type: ss
+  type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: HK Akari 02
-  password: 5d1fcbee-ba62-4f1e-8b7d-463b788a52a9
-  port: 16011
-  server: jihpit263dsa5a2aogsd0ag256a.yaoh0vcc.usercc.userdog.sbs
+- name: HK HESHL 02
+  password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
+  port: 36017
+  server: 67c4e645-8f50-4aba-abb1-def1a8f60d5c.bbtechconsultants.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
   tfo: true
-  type: ss
+  type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: HK HKT 03
-  network: ws
-  port: 39571
-  server: oovhsg.vv4.fatdns.net
-  servername: jike1-linode11.bilibili.com
+  name: HK Vertex 03
+  port: 26012
+  server: ppy-hkv2.02ijp4uos1.download
   skip-cert-verify: true
   tfo: true
   tls: false
   type: vmess
   udp: true
-  uuid: 0dc29615-8f0e-308f-ab69-b15694366dfc
-  ws-opts:
-    headers:
-      Host: jike1-linode11.bilibili.com
-    path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
-- name: HK POLONETWORK 04
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 50616
-  server: jd.vfbhg.cn
-  skip-cert-verify: true
-  sni: www.alibabacloud.com
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- cipher: chacha20-ietf
+  name: HK HKT 04
+  obfs: tls1.2_ticket_auth
+  obfs-param: 95aac85719.microsoft.com
+  password: yT6Am5
+  port: 31570
+  protocol: auth_aes128_md5
+  protocol-param: 85719:ijeMq7
+  server: oovhsg.vv4.fatdns.net
   tfo: true
-  type: trojan
+  type: ssr
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: HK DBNL 05
-  password: 13e46406-699d-4900-bb46-71774a932df9
-  port: 56412
-  server: 02.xhdns.top
+  name: HK HKT 05
+  password: 2ba85e09-7ae8-417d-8c91-05b3b954771e
+  port: 19511
+  server: mm.huawei-api.top
   tfo: true
   type: ss
   udp: true
-- name: HK Hytron 06
-  password: f85974ad-e6c4-4cd1-a93b-39c0cfb8f036
+- cipher: chacha20-ietf-poly1305
+  name: HK HGCL 06
+  password: 2ba85e09-7ae8-417d-8c91-05b3b954771e
+  port: 19511
+  server: tt.huawei-api.top
+  tfo: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: HK SKY 07
+  port: 26007
+  server: ppy-jpv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- name: HK HNSL 08
+  password: 67a23aff-59cc-4648-b8df-f0ad5d0f9013
   port: 443
-  server: sg7.71e5afc6-491d-43f0-23a3-bf59dbecd9f7.57aaa8ec.the-best-airport.com
+  server: jp4.0c48b62f-3122-f430-069c-05588999e014.69408ae5.the-best-airport.com
   skip-cert-verify: true
   sni: new.download.the-best-airport.com
   tfo: true
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: HK Amazon 07
-  password: b9a02d9c-43b9-4caa-80a8-8e9705806246
-  port: 11688
-  server: ss.037.node-for-bigairport.win
+- name: HK Datacamp 09
+  password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
+  port: 36443
+  server: 67c4e645-8f50-4aba-abb1-def1a8f60d5c.bbtechconsultants.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
   tfo: true
-  type: ss
+  type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: HK AMAZON 08
-  password: b9a02d9c-43b9-4caa-80a8-8e9705806246
-  port: 11688
-  server: ss.005.node-for-bigairport.win
+- name: HK HKT 10
+  network: ws
+  password: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+  port: 40383
+  server: zfa01.333210.xyz
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
   tfo: true
-  type: ss
+  type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: HK AMAZON 09
-  password: b9a02d9c-43b9-4caa-80a8-8e9705806246
-  port: 19888
-  server: ss.032.node-for-bigairport.win
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: HK AMAZON 10
-  password: b9a02d9c-43b9-4caa-80a8-8e9705806246
-  port: 15099
-  server: ss.017.node-for-bigairport.win
-  tfo: true
-  type: ss
-  udp: true
+  ws-opts:
+    headers:
+      Host: cdn.alibaba.com
+    path: /bby
 - cipher: aes-256-gcm
   name: HK AMAZON 11
   password: b9a02d9c-43b9-4caa-80a8-8e9705806246
-  port: 15099
-  server: ss.019.node-for-bigairport.win
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf
-  name: HK HK 12
-  obfs: tls1.2_ticket_auth
-  obfs-param: 1cb5c8561.microsoft.com
-  password: yT6Am5
-  port: 31806
-  protocol: auth_aes128_md5
-  protocol-param: 8561:IiNxqW
-  server: v3.cdn.ewddns.net
-  tfo: true
-  type: ssr
-  udp: true
-- cipher: aes-256-gcm
-  name: HK AMAZON 13
-  password: b9a02d9c-43b9-4caa-80a8-8e9705806246
-  port: 15199
-  server: ss.021.node-for-bigairport.win
+  port: 11688
+  server: ss.006.node-for-bigairport.win
   tfo: true
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: HK AMAZON 14
-  password: b9a02d9c-43b9-4caa-80a8-8e9705806246
-  port: 36888
-  server: ss.034.node-for-bigairport.win
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: HK AMAZON 15
+  name: HK AMAZON 12
   password: b9a02d9c-43b9-4caa-80a8-8e9705806246
   port: 19888
   server: ss.008.node-for-bigairport.win
@@ -135,103 +116,96 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: SG Akari 01
-  password: 5d1fcbee-ba62-4f1e-8b7d-463b788a52a9
-  port: 18010
-  server: jihpit263dsa5a2aogsd0ag256a.yaoh0vcc.usercc.userdog.sbs
+  name: HK AMAZON 13
+  password: b9a02d9c-43b9-4caa-80a8-8e9705806246
+  port: 11689
+  server: ss.010.node-for-bigairport.win
   tfo: true
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: SG SSPL 02
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 55866
-  server: testvip.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
-- name: SG AMAZON 03
-  password: 91bfdce4-662a-44cd-9658-fed6ab039981
-  port: 7001
-  ports: 7001
-  server: v4-aws-sg.aikunapp.com
+- name: HK ASNET 14
+  password: 4eba7d4d-8460-4f9f-9718-9f06886b5489
+  port: 22153
+  ports: 22153
+  server: hsxg.huasuan666.top
   skip-cert-verify: true
-  sni: d1--cn-gotcha204-3.bilivideo.com
+  sni: hsxg.huasuan666.top
   tfo: true
   type: hysteria2
   udp: true
-- cipher: chacha20-ietf
-  name: SG Akari 04
-  obfs: tls1.2_ticket_auth
-  obfs-param: 1cb5c8561.microsoft.com
-  password: yT6Am5
-  port: 31566
-  protocol: auth_aes128_md5
-  protocol-param: 8561:IiNxqW
-  server: oovhsg.vv4.fatdns.net
-  tfo: true
-  type: ssr
-  udp: true
-- name: SG AMAZON 05
-  network: ws
-  password: f177de9f-6bee-405e-b620-f73b43a1f2ea
-  port: 20230
-  server: sg007.421421.xyz
+- name: HK Hytron 15
+  password: e3d468f5-afb5-4a0f-a3bc-30d34d1d4fad
+  port: 443
+  server: hk3.cfe4fdf0-4990-bffa-e296-ec92436ece60.0d1f6a51.the-best-airport.com
   skip-cert-verify: true
-  sni: www.alibaba.com
+  sni: new.download.the-best-airport.com
   tfo: true
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: www.alibaba.com
-    path: ''
-- name: SG Amazon 06
-  network: ws
-  password: 790f4282-a179-446e-bc2a-4eba58e669d5
-  port: 20230
-  server: sg005.421421.xyz
-  skip-cert-verify: true
-  sni: www.alibaba.com
-  tfo: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.alibaba.com
-    path: ''
-- cipher: chacha20-ietf-poly1305
-  name: SG MoeChuang 07
-  password: 13e46406-699d-4900-bb46-71774a932df9
-  port: 55603
-  server: 03.xhdns.top
-  tfo: true
-  type: ss
-  udp: true
-- name: SG Amazon 08
-  network: ws
-  password: 790f4282-a179-446e-bc2a-4eba58e669d5
-  port: 20230
-  server: sg008.421421.xyz
-  skip-cert-verify: true
-  sni: www.alibaba.com
-  tfo: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.alibaba.com
-    path: ''
-- name: SG Misaka 09
+- name: SG Misaka 01
   password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
-  port: 37007
-  server: 369ab2df-c9dc-4187-bd5c-38f01aca3372.bbtechconsultants.com
+  port: 36007
+  server: 67c4e645-8f50-4aba-abb1-def1a8f60d5c.bbtechconsultants.com
   skip-cert-verify: true
   sni: cert.bitbyte.one
   tfo: true
   type: trojan
   udp: true
-- name: SG AMAZON 10
+- name: SG Datacamp 02
+  password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
+  port: 36028
+  server: 67c4e645-8f50-4aba-abb1-def1a8f60d5c.bbtechconsultants.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tfo: true
+  type: trojan
+  udp: true
+- name: SG AMAZON 03
+  password: 38ba5fa8-3672-46ac-a39c-2c0d42a8ef9e
+  port: 443
+  server: gy1.hdcloud.link
+  skip-cert-verify: true
+  sni: static.icloud.com
+  tfo: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: SG ORACLE 04
+  password: 2ba85e09-7ae8-417d-8c91-05b3b954771e
+  port: 19541
+  server: tt.huawei-api.top
+  tfo: true
+  type: ss
+  udp: true
+- name: SG AMAZON 05
+  network: ws
+  password: acf03723-aeff-4724-9536-4234cda1fcf4
+  port: 41381
+  server: zfa02.333210.xyz
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cdn.alibaba.com
+    path: /
+- name: SG AMAZON 06
+  network: ws
+  password: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+  port: 41381
+  server: zfa02.333210.xyz
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cdn.alibaba.com
+    path: /
+- name: SG AMAZON 07
   network: ws
   password: 13430296-2407-4839-900f-db97584fb27a
   port: 20230
@@ -247,349 +221,393 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: SG DIGITALOCEAN 11
+  name: SG Akari 08
   network: ws
-  port: 30066
-  server: sgb6.zzzzz.360169.xyz
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 80d5cb9b-3fe7-4e3c-a9ad-0cfc2784fc4b
-  ws-opts:
-    headers:
-      Host: sg6.360150.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: SG DigitalOcean 12
-  network: ws
-  port: 30067
-  server: sgb7.zzzzz.360169.xyz
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 80d5cb9b-3fe7-4e3c-a9ad-0cfc2784fc4b
-  ws-opts:
-    headers:
-      Host: sg7.360150.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: SG DigitalOcean 13
-  network: ws
-  port: 30068
-  server: sgb8.zzzzz.360169.xyz
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 80d5cb9b-3fe7-4e3c-a9ad-0cfc2784fc4b
-  ws-opts:
-    headers:
-      Host: sg8.360150.xyz
-    path: /
-- cipher: aes-256-gcm
-  name: SG OVH 14
-  password: 80d5cb9b-3fe7-4e3c-a9ad-0cfc2784fc4b
-  port: 16505
-  server: sge9.zzzzz.fn-node.site
-  tfo: true
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: SG LEASEWEB 15
-  network: ws
-  port: 30065
-  server: sgb5.zzzzz.360169.xyz
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 80d5cb9b-3fe7-4e3c-a9ad-0cfc2784fc4b
-  ws-opts:
-    headers:
-      Host: sg5.360150.xyz
-    path: /
-- cipher: aes-256-gcm
-  name: JP Akari 01
-  password: 5d1fcbee-ba62-4f1e-8b7d-463b788a52a9
-  port: 19004
-  server: jihpit263dsa5a2aogsd0ag256a.yaoh0vcc.usercc.userdog.sbs
-  tfo: true
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: JP AMAZON 02
-  port: 19682
-  server: tls.96.node-for-bigairport.win
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b9a02d9c-43b9-4caa-80a8-8e9705806246
-- cipher: aes-256-gcm
-  name: JP Leaseweb 03
-  password: 80d5cb9b-3fe7-4e3c-a9ad-0cfc2784fc4b
-  port: 16500
-  server: jpe10.jjjjj.fn-node.site
-  tfo: true
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: JP Amazon 04
-  network: ws
-  port: 10202
-  server: tls.81.node-for-bigairport.win
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b9a02d9c-43b9-4caa-80a8-8e9705806246
-  ws-opts:
-    headers:
-      Host: tls.81.node-for-bigairport.win
-    path: /
-- alterId: 0
-  cipher: auto
-  name: JP KOMI 05
-  port: 59043
-  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.blue-bgp.xyz
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 382ea63d-63c6-4a68-a707-30f2413042d2
-- cipher: chacha20-ietf-poly1305
-  name: JP SAKURA 06
-  password: 13e46406-699d-4900-bb46-71774a932df9
-  port: 55202
-  server: 02.xhdns.top
-  tfo: true
-  type: ss
-  udp: true
-- name: JP Nearoute 07
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 55160
-  server: jd.vfbhg.cn
-  skip-cert-verify: true
-  sni: www.alibabacloud.com
-  tfo: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: JP Amazon 08
-  port: 10202
-  server: tls.83.node-for-bigairport.win
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b9a02d9c-43b9-4caa-80a8-8e9705806246
-- alterId: 0
-  cipher: auto
-  name: JP AMAZON 09
-  port: 22003
-  server: tls.10.node-for-bigairport.win
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b9a02d9c-43b9-4caa-80a8-8e9705806246
-- alterId: 0
-  cipher: auto
-  name: JP AMAZON 10
-  port: 23002
-  server: tls.20.node-for-bigairport.win
-  skip-cert-verify: true
-  tfo: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b9a02d9c-43b9-4caa-80a8-8e9705806246
-- name: JP AMAZON 11
-  password: 91bfdce4-662a-44cd-9658-fed6ab039981
-  port: 7001
-  server: v4-aws-jp.aikunapp.com
-  skip-cert-verify: true
-  tfo: true
-  type: anytls
-  udp: true
-- cipher: chacha20-ietf
-  name: JP Akari 12
-  obfs: tls1.2_ticket_auth
-  obfs-param: 1cb5c8561.microsoft.com
-  password: yT6Am5
-  port: 31400
-  protocol: auth_aes128_md5
-  protocol-param: 8561:IiNxqW
+  port: 38567
   server: oovhsg.vv4.fatdns.net
-  tfo: true
-  type: ssr
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: JP AMAZON 13
-  network: ws
-  port: 21003
-  server: tls.13.node-for-bigairport.win
+  servername: jike1-linode09.bilibili.com
   skip-cert-verify: true
   tfo: true
   tls: false
   type: vmess
   udp: true
-  uuid: b9a02d9c-43b9-4caa-80a8-8e9705806246
+  uuid: dcdcb14e-8c34-3c0f-9801-01457dcf25f5
   ws-opts:
     headers:
-      Host: tls.13.node-for-bigairport.win
-    path: /
+      Host: jike1-linode09.bilibili.com
+    path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+- name: SG AMAZON 09
+  network: ws
+  password: f08d6a6b-a0b3-410e-a0ba-eae71b521904
+  port: 20230
+  server: sg008.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: SG AMAZON 10
+  network: ws
+  password: f08d6a6b-a0b3-410e-a0ba-eae71b521904
+  port: 20230
+  server: sg005.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: SG ORACLE 11
+  port: 26022
+  server: ppy-sgv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- name: SG AMAZON 12
+  network: ws
+  password: 58176021-8165-48d5-94b1-ad3e96e71e8b
+  port: 20230
+  server: sg007.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: SG DIGITALOCEAN 13
+  network: ws
+  port: 39903
+  server: free-relay.themars.top
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b57f1a59-1861-444c-b086-7be44a7e451d
+  ws-opts:
+    headers:
+      Host: www.cctv.com
+    path: /cctv1.m3u8
+- alterId: 0
+  cipher: auto
+  name: SG DIGITALOCEAN 14
+  network: ws
+  port: 49102
+  server: free-relay.themars.top
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b57f1a59-1861-444c-b086-7be44a7e451d
+  ws-opts:
+    headers:
+      Host: www.cctv.com
+    path: /cctv1.m3u8
+- alterId: 0
+  cipher: auto
+  name: SG AMAZON 15
+  network: ws
+  port: 40000
+  server: ml01.333210.xyz
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: acf03723-aeff-4724-9536-4234cda1fcf4
+  ws-opts:
+    headers:
+      Host: ml01.333210.xyz
+    path: /bby
 - cipher: chacha20-ietf-poly1305
-  name: JP Oracle 14
-  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
-  port: 19832
-  server: mm.huawei-api.top
+  name: JP ORACLE 01
+  password: 2ba85e09-7ae8-417d-8c91-05b3b954771e
+  port: 19531
+  server: tt.huawei-api.top
   tfo: true
   type: ss
   udp: true
+- name: JP Datacamp 02
+  password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
+  port: 36008
+  server: 67c4e645-8f50-4aba-abb1-def1a8f60d5c.bbtechconsultants.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tfo: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: JP AMAZON 15
+  name: JP Akari 03
   network: ws
-  port: 11201
-  server: tls.89.node-for-bigairport.win
+  port: 39401
+  server: oovhsg.vv4.fatdns.net
+  servername: jike1-azjp001.bilibili.com
   skip-cert-verify: true
   tfo: true
   tls: false
   type: vmess
   udp: true
-  uuid: b9a02d9c-43b9-4caa-80a8-8e9705806246
+  uuid: dcdcb14e-8c34-3c0f-9801-01457dcf25f5
   ws-opts:
     headers:
-      Host: tls.89.node-for-bigairport.win
-    path: /
-- cipher: aes-256-gcm
-  name: US Akari 01
-  password: 5d1fcbee-ba62-4f1e-8b7d-463b788a52a9
-  port: 20007
-  server: jihpit263dsa5a2aogsd0ag256a.yaoh0vcc.usercc.userdog.sbs
+      Host: jike1-azjp001.bilibili.com
+    path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
+- name: JP AMAZON 04
+  network: ws
+  password: f08d6a6b-a0b3-410e-a0ba-eae71b521904
+  port: 20230
+  server: jp008.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
   tfo: true
-  type: ss
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: JP AMAZON 05
+  network: ws
+  password: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+  port: 40385
+  server: zfa06.333210.xyz
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cdn.alibaba.com
+    path: /bby
+- name: JP AMAZON 06
+  network: ws
+  password: 790f4282-a179-446e-bc2a-4eba58e669d5
+  port: 20230
+  server: jp007.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: JP AMAZON 07
+  network: ws
+  password: 790f4282-a179-446e-bc2a-4eba58e669d5
+  port: 20230
+  server: jp005.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: JP AMAZON 08
+  network: ws
+  password: 790f4282-a179-446e-bc2a-4eba58e669d5
+  port: 20230
+  server: jp006.421421.xyz
+  skip-cert-verify: true
+  sni: www.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.alibaba.com
+    path: ''
+- name: JP ASNET 09
+  password: 4eba7d4d-8460-4f9f-9718-9f06886b5489
+  port: 22161
+  ports: 22161
+  server: hsrb.huasuan666.top
+  skip-cert-verify: true
+  sni: hsrb.huasuan666.top
+  tfo: true
+  type: hysteria2
+  udp: true
+- name: JP Leaseweb 10
+  password: 0076436c-9459-458b-8c6f-57c379acbbe3
+  port: 8080
+  ports: 8080
+  server: jph1.youxuan.wiki
+  skip-cert-verify: true
+  tfo: true
+  type: hysteria2
+  udp: true
+- name: JP FUTURE 11
+  password: 0076436c-9459-458b-8c6f-57c379acbbe3
+  port: 8080
+  ports: 8080
+  server: jp6.7896543.xyz
+  skip-cert-verify: true
+  sni: jp6.7896543.xyz
+  tfo: true
+  type: hysteria2
+  udp: true
+- name: JP ASNET 12
+  password: 2496f1d8-40cf-43d4-89ea-aff040e30dfc
+  port: 22161
+  ports: 22161
+  server: hsrb.huasuan666.top
+  skip-cert-verify: true
+  sni: hsrb.huasuan666.top
+  tfo: true
+  type: hysteria2
   udp: true
 - alterId: 0
   cipher: auto
-  name: US MULTA 02
-  network: ws
-  port: 2052
-  server: hk.bethebest.eu.org
+  name: US VCL 01
+  port: 26001
+  server: ppy-usv2.02ijp4uos1.download
   skip-cert-verify: true
   tfo: true
   tls: false
   type: vmess
   udp: true
-  uuid: f6d6f441-aad7-4a1d-a939-c7db3242e2aa
-  ws-opts:
-    headers:
-      Host: us7.123417.xyz
-    path: /
-- name: US MxFiber 03
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 49819
-  server: jd.vfbhg.cn
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- name: US Datacamp 02
+  password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
+  port: 36002
+  server: 67c4e645-8f50-4aba-abb1-def1a8f60d5c.bbtechconsultants.com
   skip-cert-verify: true
-  sni: www.alibabacloud.com
+  sni: cert.bitbyte.one
   tfo: true
   type: trojan
   udp: true
-- name: US BACK 04
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 15912
-  server: jd.vfbhg.cn
+- name: US MISAKA 03
+  password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
+  port: 36004
+  server: 67c4e645-8f50-4aba-abb1-def1a8f60d5c.bbtechconsultants.com
   skip-cert-verify: true
-  sni: www.alibabacloud.com
+  sni: cert.bitbyte.one
   tfo: true
   type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US PONYNET 04
+  password: 2ba85e09-7ae8-417d-8c91-05b3b954771e
+  port: 19561
+  server: tt.huawei-api.top
+  tfo: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US PONYNET 05
+  password: 2ba85e09-7ae8-417d-8c91-05b3b954771e
+  port: 19561
+  server: n1.huawei-api.top
+  tfo: true
+  type: ss
+  udp: true
+- name: US AS 06
+  password: b08fee86-8d51-4a82-bcdc-0a27fe64c2b7
+  port: 22159
+  ports: 22159
+  server: hsadly.huasuan666.top
+  skip-cert-verify: true
+  sni: hsadly.huasuan666.top
+  tfo: true
+  type: hysteria2
   udp: true
 - cipher: chacha20-ietf
-  name: US EDCL 05
+  name: US EDCL 07
   obfs: tls1.2_ticket_auth
-  obfs-param: 1cb5c8561.microsoft.com
+  obfs-param: 95aac85719.microsoft.com
   password: yT6Am5
   port: 31804
   protocol: auth_aes128_md5
-  protocol-param: 8561:IiNxqW
+  protocol-param: 85719:ijeMq7
   server: v3.cdn.ewddns.net
   tfo: true
   type: ssr
   udp: true
-- cipher: aes-256-gcm
-  name: US LEASEWEB 06
-  password: 80d5cb9b-3fe7-4e3c-a9ad-0cfc2784fc4b
-  port: 16507
-  server: use12.uuuuu.fn-node.site
-  tfo: true
-  type: ss
-  udp: true
-- name: US AMAZON 07
-  password: 5d4a795b-8f1b-4e08-b155-d729b1f726ae
-  port: 443
-  server: test.hdcloud.link
+- name: US MISAKA 08
+  password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
+  port: 37003
+  server: 369ab2df-c9dc-4187-bd5c-38f01aca3372.bbtechconsultants.com
   skip-cert-verify: true
+  sni: cert.bitbyte.one
   tfo: true
   type: trojan
   udp: true
-- name: US NOCIX 08
-  password: 91bfdce4-662a-44cd-9658-fed6ab039981
-  port: 6001
-  server: us-pz.aikunapp.com
+- alterId: 2
+  cipher: auto
+  name: US BAXET 09
+  network: ws
+  port: 80
+  server: free.qdns.live
+  servername: cn-jsnt-ct-01-29.bilivideo.com
   skip-cert-verify: true
   tfo: true
-  type: anytls
+  tls: false
+  type: vmess
   udp: true
-- name: US HNSL 09
-  password: 44a59c61-4918-4acc-a8ac-790e21f1f2dd
+  uuid: 932e174c-7912-3019-95c9-1a0819120297
+  ws-opts:
+    headers:
+      Host: us-2.getnewdns.xyz
+    path: /
+- name: US AMAZON 10
+  password: 38ba5fa8-3672-46ac-a39c-2c0d42a8ef9e
   port: 443
-  server: us4.4f245c67-168b-a38d-b995-3b459c3604b7.30d6a0d0.the-best-airport.com
+  server: test.hdcloud.link
+  skip-cert-verify: true
+  sni: static.icloud.com
+  tfo: true
+  type: trojan
+  udp: true
+- name: US Hytron 11
+  password: b3742257-4314-4bd0-b0af-7b576c3f76ae
+  port: 443
+  server: us3.e56136e9-421f-b5cc-81d5-bbd7c07caedb.47253001.the-best-airport.com
   skip-cert-verify: true
   sni: new.download.the-best-airport.com
   tfo: true
   type: trojan
   udp: true
-- name: US COGENT 10
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 36980
-  server: jd.vfbhg.cn
+- name: US AMAZON 12
+  network: ws
+  password: acf03723-aeff-4724-9536-4234cda1fcf4
+  port: 40384
+  server: zfa05.333210.xyz
   skip-cert-verify: true
-  sni: www.alibabacloud.com
+  sni: cdn.alibaba.com
   tfo: true
   type: trojan
   udp: true
-- name: US AS 11
-  password: 681b592d-a727-42f2-b91f-797081d0b0c1
-  port: 22151
-  ports: 22151
-  server: hsmg.huasuan666.top
-  skip-cert-verify: true
-  sni: hsmg.huasuan666.top
-  tfo: true
-  type: hysteria2
-  udp: true
-- name: US Amazon 12
+  ws-opts:
+    headers:
+      Host: cdn.alibaba.com
+    path: /bby
+- name: US AMAZON 13
   network: ws
-  password: 4deefa4b-349d-4db8-be3c-d4d61c862718
+  password: 13430296-2407-4839-900f-db97584fb27a
   port: 20230
   server: us004.421421.xyz
   skip-cert-verify: true
@@ -601,9 +619,9 @@ proxies:
     headers:
       Host: www.alibaba.com
     path: ''
-- name: US AMAZON 13
+- name: US Amazon 14
   network: ws
-  password: fdd1d613-f234-40f6-b63d-97517e0fc4b3
+  password: 13430296-2407-4839-900f-db97584fb27a
   port: 20230
   server: us003.421421.xyz
   skip-cert-verify: true
@@ -615,507 +633,675 @@ proxies:
     headers:
       Host: www.alibaba.com
     path: ''
-- name: US RELIABLESITE 14
-  password: 91bfdce4-662a-44cd-9658-fed6ab039981
-  port: 5001
-  ports: 5001
-  server: us-rs.aikunapp.com
+- name: US AS 15
+  password: 0076436c-9459-458b-8c6f-57c379acbbe3
+  port: 8080
+  ports: 8080
+  server: us1.593920.xyz
   skip-cert-verify: true
-  sni: d1--cn-gotcha204-4.bilivideo.com
+  sni: us1.593920.xyz
   tfo: true
   type: hysteria2
   udp: true
-- cipher: aes-256-gcm
-  name: US Akari 15
-  password: 5d1fcbee-ba62-4f1e-8b7d-463b788a52a9
-  port: 20003
-  server: jihpit263dsa5a2aogsd0ag256a.yaoh0vcc.usercc.userdog.sbs
+- name: TW RTL 01
+  password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
+  port: 36005
+  server: 67c4e645-8f50-4aba-abb1-def1a8f60d5c.bbtechconsultants.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
   tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: TW Akari 01
-  password: 5d1fcbee-ba62-4f1e-8b7d-463b788a52a9
-  port: 17006
-  server: jihpit263dsa5a2aogsd0ag256a.yaoh0vcc.usercc.userdog.sbs
-  tfo: true
-  type: ss
+  type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: TW PNIC 02
-  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
-  port: 19822
+  password: 2ba85e09-7ae8-417d-8c91-05b3b954771e
+  port: 19521
+  server: tt.huawei-api.top
+  tfo: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: TW DCBG 03
+  port: 26060
+  server: ppy-twv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- cipher: chacha20-ietf
+  name: TW DCBG 04
+  obfs: tls1.2_ticket_auth
+  obfs-param: 95aac85719.microsoft.com
+  password: yT6Am5
+  port: 31200
+  protocol: auth_aes128_md5
+  protocol-param: 85719:ijeMq7
+  server: v3.cdn.ewddns.net
+  tfo: true
+  type: ssr
+  udp: true
+- name: TW DCBG 05
+  network: ws
+  password: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+  port: 40380
+  server: zfa04.333210.xyz
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cdn.alibaba.com
+    path: /bby
+- alterId: 0
+  cipher: auto
+  name: AE Melbikomas 01
+  port: 26078
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- name: AR Dattatec 01
+  password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
+  port: 36010
+  server: 67c4e645-8f50-4aba-abb1-def1a8f60d5c.bbtechconsultants.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tfo: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: AR Dattatec 02
+  password: 2ba85e09-7ae8-417d-8c91-05b3b954771e
+  port: 19588
   server: mm.huawei-api.top
   tfo: true
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: TW AKILE 03
-  password: 13e46406-699d-4900-bb46-71774a932df9
-  port: 61696
-  server: 04.xhdns.top
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: TW DCBG 04
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 44173
-  server: testvip.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
-- name: TW DCBG 05
-  password: 91bfdce4-662a-44cd-9658-fed6ab039981
-  port: 6001
-  server: hinetddns1.aikunapp.com
-  skip-cert-verify: true
-  tfo: true
-  type: anytls
-  udp: true
 - alterId: 0
   cipher: auto
-  name: TW AkileCloud 06
-  network: ws
-  port: 30077
-  server: tw.ttttt.360179.xyz
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 80d5cb9b-3fe7-4e3c-a9ad-0cfc2784fc4b
-  ws-opts:
-    headers:
-      Host: tw.360170.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: TW DCBG 07
-  network: ws
-  port: 39201
-  server: v3.cdn.ewddns.net
-  servername: host=live.bilibili.com
+  name: AT GCSL 01
+  port: 26128
+  server: ppy-boardv2.02ijp4uos1.download
   skip-cert-verify: true
   tfo: true
   tls: false
   type: vmess
   udp: true
-  uuid: 0dc29615-8f0e-308f-ab69-b15694366dfc
-  ws-opts:
-    headers:
-      Host: host=live.bilibili.com
-    path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
-- cipher: chacha20-ietf-poly1305
-  name: AR Kaopu 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 49563
-  server: vip1.vfbhg.cn
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
+  name: AU CAPL 01
+  port: 26110
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
   tfo: true
-  type: ss
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: AT EAOSUDSG 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 34867
-  server: vip1.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: AU ORACLE 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 47407
-  server: testvip.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
 - name: AU The 02
   password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
-  port: 37015
-  server: 369ab2df-c9dc-4187-bd5c-38f01aca3372.bbtechconsultants.com
+  port: 36015
+  server: 67c4e645-8f50-4aba-abb1-def1a8f60d5c.bbtechconsultants.com
   skip-cert-verify: true
   sni: cert.bitbyte.one
   tfo: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
+- name: AU Datacamp 03
+  network: ws
+  password: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+  port: 42401
+  server: zfa03.333210.xyz
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cdn.alibaba.com
+    path: /bby
+- alterId: 0
+  cipher: auto
+  name: AZ Hostart 01
+  port: 26139
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
   name: BD Kaopu 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 20103
-  server: vip1.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: BG Hostshield 01
-  network: ws
-  port: 30077
-  server: hl.hhhhh.360179.xyz
-  skip-cert-verify: true
-  tfo: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 80d5cb9b-3fe7-4e3c-a9ad-0cfc2784fc4b
-  ws-opts:
-    headers:
-      Host: hl.360170.xyz
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: BR ORACLE 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 31431
-  server: vip1.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: BR ORACLE 02
-  network: ws
-  port: 2052
-  server: hk.bethebest.eu.org
+  port: 26084
+  server: ppy-boardv2.02ijp4uos1.download
   skip-cert-verify: true
   tfo: true
   tls: false
   type: vmess
   udp: true
-  uuid: f6d6f441-aad7-4a1d-a939-c7db3242e2aa
-  ws-opts:
-    headers:
-      Host: br3.123417.xyz
-    path: /
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
 - alterId: 0
   cipher: auto
-  name: BR Oracle 03
-  network: ws
-  port: 2052
-  server: hk.bethebest.eu.org
+  name: BE GCSL 01
+  port: 26150
+  server: ppy-boardv2.02ijp4uos1.download
   skip-cert-verify: true
   tfo: true
   tls: false
   type: vmess
   udp: true
-  uuid: f6d6f441-aad7-4a1d-a939-c7db3242e2aa
-  ws-opts:
-    headers:
-      Host: br2.123417.xyz
-    path: /
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
 - alterId: 0
   cipher: auto
-  name: CA ORACLE 01
-  network: ws
-  port: 2052
-  server: hk.bethebest.eu.org
+  name: BG Belcloud 01
+  port: 26094
+  server: ppy-boardv2.02ijp4uos1.download
   skip-cert-verify: true
   tfo: true
   tls: false
   type: vmess
   udp: true
-  uuid: f6d6f441-aad7-4a1d-a939-c7db3242e2aa
-  ws-opts:
-    headers:
-      Host: ca12.123417.xyz
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: CA ORACLE 02
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 57244
-  server: vip1.vfbhg.cn
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
+  name: BH Kaopu 01
+  port: 26138
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
   tfo: true
-  type: ss
+  tls: false
+  type: vmess
   udp: true
-- name: CA The 03
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
+  name: BR AS 01
+  port: 26134
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- name: BR Misaka 02
   password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
-  port: 37006
+  port: 36011
+  server: 67c4e645-8f50-4aba-abb1-def1a8f60d5c.bbtechconsultants.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tfo: true
+  type: trojan
+  udp: true
+- name: BR Misaka 03
+  password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
+  port: 37011
   server: 369ab2df-c9dc-4187-bd5c-38f01aca3372.bbtechconsultants.com
   skip-cert-verify: true
   sni: cert.bitbyte.one
   tfo: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CH senseLAN 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 48929
-  server: vip1.vfbhg.cn
+- alterId: 0
+  cipher: auto
+  name: CA DIGITALOCEAN 01
+  port: 26114
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
   tfo: true
-  type: ss
+  tls: false
+  type: vmess
   udp: true
-- name: CH Misaka 02
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- name: CA AS 02
   password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
-  port: 37019
-  server: 369ab2df-c9dc-4187-bd5c-38f01aca3372.bbtechconsultants.com
+  port: 36006
+  server: 67c4e645-8f50-4aba-abb1-def1a8f60d5c.bbtechconsultants.com
   skip-cert-verify: true
   sni: cert.bitbyte.one
   tfo: true
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: CL ORACLE 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 16679
-  server: vip1.vfbhg.cn
+  name: CA ESTRUXTURE 03
+  password: 2ba85e09-7ae8-417d-8c91-05b3b954771e
+  port: 19586
+  server: mm.huawei-api.top
   tfo: true
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CO Oracle 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 52217
-  server: vip1.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: CZ GamerHost 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 10559
-  server: vip1.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: DE AS 01
-  password: 5d1fcbee-ba62-4f1e-8b7d-463b788a52a9
-  port: 28001
-  server: jihpit263dsa5a2aogsd0ag256a.yaoh0vcc.usercc.userdog.sbs
-  tfo: true
-  type: ss
-  udp: true
-- name: DE NKtelecom 02
-  password: 366dad01-dd99-47be-92fa-6beddd09fff9
-  port: 22158
-  ports: 22158
-  server: hsfg.huasuan666.top
+- name: CH Misaka 01
+  password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
+  port: 36019
+  server: 67c4e645-8f50-4aba-abb1-def1a8f60d5c.bbtechconsultants.com
   skip-cert-verify: true
-  sni: hsfg.huasuan666.top
+  sni: cert.bitbyte.one
+  tfo: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: CL AS 01
+  port: 26147
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- name: CL ORACLE 02
+  password: 0076436c-9459-458b-8c6f-57c379acbbe3
+  port: 8080
+  ports: 8080
+  server: zl.youxuan.wiki
+  skip-cert-verify: true
   tfo: true
   type: hysteria2
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: DE BAGE 03
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 51307
-  server: testvip.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: DK M247 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 11167
-  server: vip1.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: EG Link 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 59059
-  server: vip1.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: ES Oracle 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 10693
-  server: vip1.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: FR AS 01
-  password: 5d1fcbee-ba62-4f1e-8b7d-463b788a52a9
-  port: 27001
-  server: jihpit263dsa5a2aogsd0ag256a.yaoh0vcc.usercc.userdog.sbs
-  tfo: true
-  type: ss
-  udp: true
-- name: FR OVH 02
-  password: 91bfdce4-662a-44cd-9658-fed6ab039981
-  port: 6001
-  server: 54.37.74.147
-  skip-cert-verify: true
-  tfo: true
-  type: anytls
-  udp: true
-- name: FR Datacamp 03
-  password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
-  port: 37014
-  server: 369ab2df-c9dc-4187-bd5c-38f01aca3372.bbtechconsultants.com
-  skip-cert-verify: true
-  sni: cert.bitbyte.one
-  tfo: true
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: GB M247 01
-  password: 5d1fcbee-ba62-4f1e-8b7d-463b788a52a9
-  port: 23001
-  server: jihpit263dsa5a2aogsd0ag256a.yaoh0vcc.usercc.userdog.sbs
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: GB Scalaxy 02
-  password: 5d1fcbee-ba62-4f1e-8b7d-463b788a52a9
-  port: 26001
-  server: jihpit263dsa5a2aogsd0ag256a.yaoh0vcc.usercc.userdog.sbs
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: GB ORACLE 03
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 53433
-  server: testvip.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: HR Pq 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 34509
-  server: vip1.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: HU ATW 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 25813
-  server: vip1.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: ID Oracle 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 38393
-  server: vip1.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: IL ORACLE 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 20131
-  server: vip1.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: IN ORACLE 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 31405
-  server: vip1.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: IN RCSPL 02
-  password: 5d1fcbee-ba62-4f1e-8b7d-463b788a52a9
-  port: 25001
-  server: jihpit263dsa5a2aogsd0ag256a.yaoh0vcc.usercc.userdog.sbs
-  tfo: true
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: IN Oracle 03
-  network: ws
-  port: 2052
-  server: hk.bethebest.eu.org
+  name: CN NATOLAB 01
+  port: 26122
+  server: ppy-boardv2.02ijp4uos1.download
   skip-cert-verify: true
   tfo: true
   tls: false
   type: vmess
   udp: true
-  uuid: f6d6f441-aad7-4a1d-a939-c7db3242e2aa
-  ws-opts:
-    headers:
-      Host: in4.123417.xyz
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: IS Pq 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 33635
-  server: vip1.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: IT Host 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 52097
-  server: vip1.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: KH IICWTBVIT 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 10089
-  server: vip1.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
-- name: KR SEJONG 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 24608
-  server: jd.vfbhg.cn
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
+  name: CZ ASNET 01
+  port: 26100
+  server: ppy-boardv2.02ijp4uos1.download
   skip-cert-verify: true
-  sni: www.alibabacloud.com
   tfo: true
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
+  name: DE ASNET 01
+  port: 26104
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
+  name: DE DigitalOcean 02
+  port: 26112
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
 - cipher: chacha20-ietf-poly1305
-  name: KR SEJONG 02
-  password: 13e46406-699d-4900-bb46-71774a932df9
-  port: 42395
-  server: 04.xhdns.top
-  tfo: true
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: KR Korea 03
-  password: 5d1fcbee-ba62-4f1e-8b7d-463b788a52a9
-  port: 21001
-  server: jihpit263dsa5a2aogsd0ag256a.yaoh0vcc.usercc.userdog.sbs
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: LT Melbikomas 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 58891
-  server: vip1.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: MX ORACLE 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 15935
-  server: vip1.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: MY TTSS 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 58560
-  server: testvip.vfbhg.cn
+  name: DE Realtox 03
+  password: 2ba85e09-7ae8-417d-8c91-05b3b954771e
+  port: 19585
+  server: mm.huawei-api.top
   tfo: true
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: MY TTSS 02
+  name: DK GCSL 01
+  port: 26149
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- name: EG Datacamp 01
+  network: ws
+  password: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+  port: 42399
+  server: zfa03.333210.xyz
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cdn.alibaba.com
+    path: /bby
+- alterId: 0
+  cipher: auto
+  name: ES ASNET 01
+  port: 26126
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
+  name: FI ASNET 01
+  port: 26136
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
+  name: FR OVH 01
+  network: ws
+  port: 29893
+  server: v3.cdn.ewddns.net
+  servername: jike1-de02.bilibili.com
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dcdcb14e-8c34-3c0f-9801-01457dcf25f5
+  ws-opts:
+    headers:
+      Host: jike1-de02.bilibili.com
+    path: /8858d045-66fe-441a-8d35-1507216fbb2f.live238.m3u8
+- name: FR Datacamp 02
+  password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
+  port: 36014
+  server: 67c4e645-8f50-4aba-abb1-def1a8f60d5c.bbtechconsultants.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tfo: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: FR ASNET 03
+  port: 26143
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
+  name: GB DIGITALOCEAN 01
+  port: 26116
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- name: GB Datacamp 02
+  password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
+  port: 36012
+  server: 67c4e645-8f50-4aba-abb1-def1a8f60d5c.bbtechconsultants.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tfo: true
+  type: trojan
+  udp: true
+- name: GB RCFITL 03
+  password: 4eba7d4d-8460-4f9f-9718-9f06886b5489
+  port: 22156
+  ports: 22156
+  server: hsyg.huasuan666.top
+  skip-cert-verify: true
+  sni: hsyg.huasuan666.top
+  tfo: true
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: GR GCSL 01
+  port: 26130
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
+  name: HR GCSL 01
+  port: 26152
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
+  name: ID Hadi 01
+  port: 26144
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- alterId: 0
+  cipher: auto
+  name: IE GCSL 01
+  port: 26151
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
+  name: IL AS 01
+  port: 26145
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
+  name: IN DIGITALOCEAN 01
+  port: 26132
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- name: IN DIGITALOCEAN 02
+  password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
+  port: 36018
+  server: 67c4e645-8f50-4aba-abb1-def1a8f60d5c.bbtechconsultants.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tfo: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: IN ASNET 03
+  password: 2ba85e09-7ae8-417d-8c91-05b3b954771e
+  port: 19581
+  server: mm.huawei-api.top
+  tfo: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: IT Melbikomas 01
+  port: 26142
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
+  name: KH IICWTBVIT 01
+  port: 26082
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- name: KH Cyberzone 02
+  network: ws
+  password: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+  port: 42404
+  server: zfa03.333210.xyz
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cdn.alibaba.com
+    path: /bby
+- alterId: 0
+  cipher: auto
+  name: KR ORACLE 01
+  port: 26074
+  server: ppy-krv1.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- cipher: chacha20-ietf-poly1305
+  name: KR ORACLE 02
+  password: 2ba85e09-7ae8-417d-8c91-05b3b954771e
+  port: 19551
+  server: n1.huawei-api.top
+  tfo: true
+  type: ss
+  udp: true
+- name: KR AS 03
+  password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
+  port: 36009
+  server: 67c4e645-8f50-4aba-abb1-def1a8f60d5c.bbtechconsultants.com
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+  tfo: true
+  type: trojan
+  udp: true
+- name: KZ Datacamp 01
+  network: ws
+  password: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+  port: 42406
+  server: zfa03.333210.xyz
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cdn.alibaba.com
+    path: /bby
+- alterId: 0
+  cipher: auto
+  name: LT GCSL 01
+  port: 26153
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
+  name: LV ASNET 01
+  port: 26102
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- name: MM Cyberzone 01
+  network: ws
+  password: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+  port: 42397
+  server: zfa03.333210.xyz
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cdn.alibaba.com
+    path: /bby
+- name: MO Cyberzone 01
+  network: ws
+  password: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+  port: 42400
+  server: zfa03.333210.xyz
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cdn.alibaba.com
+    path: /bby
+- alterId: 0
+  cipher: auto
+  name: MX AS 01
+  port: 26148
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
+  name: MY TTSS 01
   network: ws
   port: 31303
   server: oovhsg.vv4.fatdns.net
@@ -1125,37 +1311,63 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 0dc29615-8f0e-308f-ab69-b15694366dfc
+  uuid: dcdcb14e-8c34-3c0f-9801-01457dcf25f5
   ws-opts:
     headers:
       Host: hkghk.bilibili.com
     path: /04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8
 - alterId: 0
   cipher: auto
-  name: MY Terabix 03
-  network: ws
-  port: 30077
-  server: my.mmmmm.360179.xyz
+  name: MY STSB 02
+  port: 26137
+  server: ppy-boardv2.02ijp4uos1.download
   skip-cert-verify: true
   tfo: true
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: 80d5cb9b-3fe7-4e3c-a9ad-0cfc2784fc4b
+  uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac
+- name: MY Cyberzone 03
+  network: ws
+  password: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+  port: 42391
+  server: zfa03.333210.xyz
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: my.360170.xyz
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: NG Melbikomas 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 27331
-  server: vip1.vfbhg.cn
+      Host: cdn.alibaba.com
+    path: /bby
+- name: NG Datacamp 01
+  network: ws
+  password: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+  port: 42396
+  server: zfa03.333210.xyz
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
   tfo: true
-  type: ss
+  type: trojan
   udp: true
-- name: NL NKtelecom 01
-  password: 1abdc446-f90e-466f-95ce-e006edd89628
+  ws-opts:
+    headers:
+      Host: cdn.alibaba.com
+    path: /bby
+- alterId: 0
+  cipher: auto
+  name: NL DigitalOcean 01
+  port: 26098
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- name: NL NKtelecom 02
+  password: 8a456f68-46a3-4cd9-892f-35fbf9aef756
   port: 22157
   ports: 22157
   server: hshl.huasuan666.top
@@ -1164,56 +1376,113 @@ proxies:
   tfo: true
   type: hysteria2
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: NL Nerdscave 02
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 49794
-  server: vip1.vfbhg.cn
+- alterId: 0
+  cipher: auto
+  name: NO HOSTHATCH 01
+  port: 26140
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
   tfo: true
-  type: ss
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: PE Red 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 33471
-  server: vip1.vfbhg.cn
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
+  name: OM Kaopu 01
+  port: 26133
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
   tfo: true
-  type: ss
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: PH RMTS 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 28483
-  server: vip1.vfbhg.cn
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
+  name: PE Kaopu 01
+  port: 26155
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
   tfo: true
-  type: ss
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: PL Korbank 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 39620
-  server: vip1.vfbhg.cn
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
+  name: PH ZEN 01
+  port: 26080
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
   tfo: true
-  type: ss
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: RO M247 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 46009
-  server: vip1.vfbhg.cn
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- name: PH Cyberzone 02
+  network: ws
+  password: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+  port: 42394
+  server: zfa03.333210.xyz
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
   tfo: true
-  type: ss
+  type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: RU TGS4 01
-  password: 5d1fcbee-ba62-4f1e-8b7d-463b788a52a9
-  port: 22002
-  server: jihpit263dsa5a2aogsd0ag256a.yaoh0vcc.usercc.userdog.sbs
+  ws-opts:
+    headers:
+      Host: cdn.alibaba.com
+    path: /bby
+- name: PK Cyberzone 01
+  network: ws
+  password: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+  port: 42405
+  server: zfa03.333210.xyz
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
   tfo: true
-  type: ss
+  type: trojan
   udp: true
-- name: RU LLC 02
-  password: 357b3ed6-849e-4192-af12-349ade6eda4f
+  ws-opts:
+    headers:
+      Host: cdn.alibaba.com
+    path: /bby
+- alterId: 0
+  cipher: auto
+  name: PL Baxet 01
+  port: 26096
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
+  name: PT GCSL 01
+  port: 26154
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
+  name: RO CFIS 01
+  port: 26146
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- name: RU LLC 01
+  password: 651a72ad-40c6-4ffb-b468-747fe3df9ef0
   port: 22160
   ports: 22160
   server: hsels.huasuan666.top
@@ -1222,32 +1491,60 @@ proxies:
   tfo: true
   type: hysteria2
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: RU JSC 03
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 16249
-  server: vip1.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: SE Yelles 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 44221
-  server: vip1.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
-- name: SE Misaka 02
+- name: RU Misaka 02
   password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
-  port: 37020
-  server: 369ab2df-c9dc-4187-bd5c-38f01aca3372.bbtechconsultants.com
+  port: 36016
+  server: 67c4e645-8f50-4aba-abb1-def1a8f60d5c.bbtechconsultants.com
   skip-cert-verify: true
   sni: cert.bitbyte.one
   tfo: true
   type: trojan
   udp: true
-- name: SE Misaka 03
+- alterId: 0
+  cipher: auto
+  name: RU LLC 03
+  port: 26090
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
+  name: SA Kaopu 01
+  port: 26088
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
+  name: SC Kaopu 01
+  port: 26124
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- alterId: 0
+  cipher: auto
+  name: SE HOSTHATCH 01
+  port: 26141
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- name: SE Misaka 02
   password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
   port: 36020
   server: 67c4e645-8f50-4aba-abb1-def1a8f60d5c.bbtechconsultants.com
@@ -1256,89 +1553,154 @@ proxies:
   tfo: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: TG CAFENET 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 38941
-  server: vip1.vfbhg.cn
+- alterId: 0
+  cipher: auto
+  name: TH 4LJ 01
+  port: 26108
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
   tfo: true
-  type: ss
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-gcm
-  name: TH SCC 01
-  password: 5d1fcbee-ba62-4f1e-8b7d-463b788a52a9
-  port: 29015
-  server: jihpit263dsa5a2aogsd0ag256a.yaoh0vcc.usercc.userdog.sbs
-  tfo: true
-  type: ss
-  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
 - cipher: chacha20-ietf-poly1305
   name: TH SCC 02
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 23547
-  server: vip1.vfbhg.cn
+  password: 2ba85e09-7ae8-417d-8c91-05b3b954771e
+  port: 19582
+  server: mm.huawei-api.top
   tfo: true
   type: ss
   udp: true
-- name: TR Misaka 01
+- name: TH Data 03
+  network: ws
+  password: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+  port: 42390
+  server: zfa03.333210.xyz
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cdn.alibaba.com
+    path: /bby
+- cipher: chacha20-ietf-poly1305
+  name: TR FCOC 01
+  password: 2ba85e09-7ae8-417d-8c91-05b3b954771e
+  port: 19583
+  server: mm.huawei-api.top
+  tfo: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: TR ASNET 02
+  port: 26092
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- name: TR Datacamp 03
   password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
-  port: 37021
-  server: 369ab2df-c9dc-4187-bd5c-38f01aca3372.bbtechconsultants.com
+  port: 36021
+  server: 67c4e645-8f50-4aba-abb1-def1a8f60d5c.bbtechconsultants.com
   skip-cert-verify: true
   sni: cert.bitbyte.one
   tfo: true
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: TR Scalaxy 02
-  password: 5d1fcbee-ba62-4f1e-8b7d-463b788a52a9
-  port: 24001
-  server: jihpit263dsa5a2aogsd0ag256a.yaoh0vcc.usercc.userdog.sbs
+- alterId: 0
+  cipher: auto
+  name: UA ASNET 01
+  port: 26106
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
   tfo: true
-  type: ss
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: UA FRSM 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 29469
-  server: vip1.vfbhg.cn
-  tfo: true
-  type: ss
-  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
 - name: UA ZVN 02
   password: 8ed337d1-7930-41cd-9d6d-eaca3c84b266
-  port: 37025
-  server: 369ab2df-c9dc-4187-bd5c-38f01aca3372.bbtechconsultants.com
+  port: 36025
+  server: 67c4e645-8f50-4aba-abb1-def1a8f60d5c.bbtechconsultants.com
   skip-cert-verify: true
   sni: cert.bitbyte.one
   tfo: true
   type: trojan
   udp: true
+- name: UA Datacamp 03
+  network: ws
+  password: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+  port: 42402
+  server: zfa03.333210.xyz
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cdn.alibaba.com
+    path: /bby
 - cipher: chacha20-ietf
-  name: Unknown TTSS 01
+  name: Unknown HNSL 01
   obfs: tls1.2_ticket_auth
-  obfs-param: 1cb5c8561.microsoft.com
+  obfs-param: 95aac85719.microsoft.com
   password: yT6Am5
-  port: 9712
+  port: 21714
   protocol: auth_aes128_md5
-  protocol-param: 8561:IiNxqW
+  protocol-param: 85719:ijeMq7
   server: v3.cdn.ewddns.net
   tfo: true
   type: ssr
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: VN VNPT 01
-  password: 750ea8df-8adc-450b-b41b-04392366991a
-  port: 50389
-  server: vip1.vfbhg.cn
+  name: VN VSSTCL 01
+  password: 2ba85e09-7ae8-417d-8c91-05b3b954771e
+  port: 19584
+  server: mm.huawei-api.top
   tfo: true
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: VN MTCL 02
-  password: 5d1fcbee-ba62-4f1e-8b7d-463b788a52a9
-  port: 29001
-  server: jihpit263dsa5a2aogsd0ag256a.yaoh0vcc.usercc.userdog.sbs
+- alterId: 0
+  cipher: auto
+  name: VN TQDTJSC 02
+  port: 26076
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
   tfo: true
-  type: ss
+  tls: false
+  type: vmess
   udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
+- name: VN Cyberzone 03
+  network: ws
+  password: 2dcbbfcd-8bcd-4827-9bec-d90949b2ca7d
+  port: 42398
+  server: zfa03.333210.xyz
+  skip-cert-verify: true
+  sni: cdn.alibaba.com
+  tfo: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cdn.alibaba.com
+    path: /bby
+- alterId: 0
+  cipher: auto
+  name: ZA The 01
+  port: 26086
+  server: ppy-boardv2.02ijp4uos1.download
+  skip-cert-verify: true
+  tfo: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cff3ca9-a6d4-34b9-b7f7-62ac3ced85c4
